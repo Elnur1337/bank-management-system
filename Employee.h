@@ -8,7 +8,7 @@ private:
 	string jmbg;
 	string firstName;
 	string lastName;
-	string password;
+	size_t password;
 	string role;
 public:
 	Employee() = default;
@@ -22,6 +22,6 @@ public:
 	void setJmbg(const string&);
 	void setFirstName(const string&);
 	void setLastName(const string&);
-	void setPassword(const string&);
+	void setPassword(const size_t&);
 	void setRole(const string&);
 };
